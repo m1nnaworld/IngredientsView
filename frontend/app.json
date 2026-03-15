@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "성분뷰",
+    "slug": "ingredient-view",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#67C090"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ingredientview.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#67C090"
+      },
+      "package": "com.ingredientview.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "jsEngine": "hermes"
+  }
+}
